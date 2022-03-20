@@ -25,13 +25,16 @@
         element.addEventListener("click", () => {
             let movetoSectionNode = document.querySelector("#" + element.href.split("#")[1])
             menuControl.checked = false;
-            ST(movetoSectionNode, 1);
-            setTimeout(() => {
-                movetoSectionNode.classList.add('animate__animated', 'animate__headShake');
-            }, 800);
-            setTimeout(() => {
-                movetoSectionNode.classList.remove('animate__animated', 'animate__headShake');
-            }, 1200);
+            if(movetoSectionNode!=null){
+                ST(movetoSectionNode, 1);
+                setTimeout(() => {
+                    movetoSectionNode.classList.add('animate__animated', 'animate__headShake');
+                }, 800);
+                setTimeout(() => {
+                    movetoSectionNode.classList.remove('animate__animated', 'animate__headShake');
+                }, 1200);
+            }
+    
         })
 
     });
