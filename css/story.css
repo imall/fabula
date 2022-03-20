@@ -1,5 +1,3 @@
-
-
 .banner {
     width: 100%;
     padding: 0 0 45%;
@@ -55,6 +53,16 @@
 
 .article article #storyContent img{
     width: 100%;
+}
+
+.article article #storyContent h1,
+.article article #storyContent h2,
+.article article #storyContent h3,
+.article article #storyContent h4,
+.article article #storyContent h5,
+.article article #storyContent h6{
+    font-size: inherit;
+    margin-bottom: 0;
 }
 
 
@@ -243,12 +251,13 @@
 }
 
 .self-company-float h4 {
-    font-size: 1.75rem;
+    font-size: 1.125rem;
     width: 87%;
     float: right;
     padding-top: 10px;
     padding-left: 20px;
     box-sizing: border-box;
+    font-family: "custom-sans-serif",Noto Sans TC!important;
 }
 .self-company-float .self-logo {
     width: 13%;

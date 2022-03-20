@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
-
+@font-face {
+    font-family: "custom-sans-serif";
+    src: url(../fonts/Merriweather-Bold.ttf) format("truetype");
+    unicode-range: u+00-024f
+}
 
 * {
     list-style: none;
