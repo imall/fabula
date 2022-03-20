@@ -3,6 +3,7 @@
     let aList = document.querySelectorAll(".main-nav>ul li a")
     let home = document.querySelector(".go-top")
     let menuControl = document.querySelector("#menu-control")
+    let headerHeight =document.querySelector(".container-fluid.header").clientHeight
 
     window.addEventListener("scroll", () => {
         if (window.scrollY == 0) {
@@ -45,7 +46,7 @@
         if (window.scrollY == 0) {
             window.scrollTo({ top: 1 })
         }
-        scrollToC(e, e.scrollTop + 162, element, duration);
+        scrollToC(e, e.scrollTop + headerHeight, element, duration);
     }
 
     function Slinear(element, duration) {
@@ -53,7 +54,7 @@
         if (window.scrollY == 0) {
             window.scrollTo({ top: 1 })
         }
-        scrollToB(e, e.scrollTop + 162, element, duration);
+        scrollToB(e, e.scrollTop + headerHeight, element, duration);
     }
 
     function scrollToB(element, from, to, duration) {
@@ -72,10 +73,10 @@
 
     function scrollToX(element, xFrom, xTo, t01, speed, step, motion) {
         if (t01 < 0 || t01 > 1 || speed <= 0) {
-            element.scrollTop = xTo - 162;
+            element.scrollTop = xTo - headerHeight;
             return;
         }
-        element.scrollTop = xFrom - (xFrom - xTo) * motion(t01) - 162;
+        element.scrollTop = xFrom - (xFrom - xTo) * motion(t01) - headerHeight;
         t01 += speed * step;
 
         setTimeout(function () {
