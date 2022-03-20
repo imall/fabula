@@ -1,6 +1,10 @@
-[id] {
-    scroll-margin-top: 9rem;
+[id="company-des"],
+[id="fundation-info"], 
+[id="map-section"],
+[id="tags"] {
+    scroll-margin-top: calc(9rem);
 }
+
 .banner {
     width: 100%;
     padding: 0 0 45%;
@@ -54,7 +58,7 @@
 
 }
 
-.article article #storyContent img{
+.article article #storyContent img {
     width: 100%;
 }
 
@@ -63,7 +67,7 @@
 .article article #storyContent h3,
 .article article #storyContent h4,
 .article article #storyContent h5,
-.article article #storyContent h6{
+.article article #storyContent h6 {
     font-size: inherit;
     margin-bottom: 0;
 }
@@ -74,7 +78,7 @@
 
 
 .article article>div {
-    display: block;    
+    display: block;
     color: #4d4d4d;
     margin: 30px 0 0;
 }
@@ -214,12 +218,12 @@
     font-size: 1rem;
 }
 
-.company .tags ul li:hover{
+.company .tags ul li:hover {
     background-color: #6CA27F;
     color: #fff;
 }
 
-.company .tags ul li:hover a{
+.company .tags ul li:hover a {
     color: #fff;
 }
 
@@ -243,9 +247,10 @@
     top: 0;
 }
 
-.self-company-float{
+.self-company-float {
     padding-bottom: 20px;
 }
+
 .self-company-float h4 span {
     display: block;
     font-size: .875rem;
@@ -269,8 +274,9 @@
     padding-top: 10px;
     padding-left: 20px;
     box-sizing: border-box;
-    font-family: "custom-sans-serif",Noto Sans TC!important;
+    font-family: "custom-sans-serif", Noto Sans TC !important;
 }
+
 .self-company-float .self-logo {
     width: 13%;
     float: left;
@@ -329,7 +335,7 @@
 
 .mobile-more, .more {
     cursor: pointer;
-    
+
 }
 
 .side-nav .side-nav-content .stories ul li a,
@@ -340,8 +346,7 @@
 }
 
 
-.side-nav .side-nav-content .stories ul li a:hover
-{
+.side-nav .side-nav-content .stories ul li a:hover {
     color: #6CA27F;
 }
 
@@ -353,15 +358,16 @@
     .self-company-float p {
         width: 87%;
     }
-    
+
     .self-company-float h4 {
         width: 87%;
     }
+
     .self-company-float .self-logo {
         width: 13%;
-     
+
     }
-    
+
 
 }
 
@@ -370,48 +376,54 @@
     .self-company-float p {
         width: 80%;
     }
-    
+
     .self-company-float h4 {
         width: 80%;
     }
+
     .self-company-float .self-logo {
         width: 20%;
-     
+
     }
-    .company .company-title .company-info h3{
+
+    .company .company-title .company-info h3 {
         padding-left: 0;
     }
-    .company .company-title .company-info ul{
+
+    .company .company-title .company-info ul {
         justify-content: space-between;
     }
+
     .company .company-title .company-info ul li {
         padding: 0 .4rem;
     }
+
     .company .company-title .company-info ul li a {
-  
-       font-size:  .7rem;
-    
+
+        font-size: .7rem;
+
     }
 
 }
 
 
 @media screen and (max-width:992px) {
-   
+
 
     .company .company-title .company-info ul li {
         padding: 0 .4rem;
     }
 
     .company .company-title .company-info ul li a {
-  
+
         padding-bottom: 0.3rem;
     }
+
     .self-company-float h4 {
         padding-top: 0;
     }
-  
-   
+
+
 }
 
 @media screen and (max-width:767.98px) {
@@ -429,7 +441,8 @@
     .banner .txt {
         position: absolute;
         width: 20rem;
-        padding: 1.75rem 2.5rem;}
+        padding: 1.75rem 2.5rem;
+    }
 
 
     .banner .txt span {
@@ -463,9 +476,11 @@
     .side-nav {
         background-color: rgb(249, 250, 251);
     }
-    .self-company-float h4{
+
+    .self-company-float h4 {
         padding-top: 0;
     }
+
     .self-company-float p {
         width: 100%;
         float: right;
@@ -476,31 +491,36 @@
         padding-left: 0;
         padding-right: 0;
     }
+
     .company .company-title .company-info ul li a {
-  
-        font-size:  1rem;
-     
-     }
+
+        font-size: 1rem;
+
+    }
 
 }
 
 @media screen and (max-width:576px) {
+
     .side-nav-content,
     .article {
         padding-left: calc(var(--bs-gutter-x) * .5);
         padding-right: calc(var(--bs-gutter-x) * .5);
     }
+
     .self-company-float .self-logo {
         width: 5rem;
     }
+
     .self-company-float h4 {
-        width:10rem;
+        width: 10rem;
         float: left;
         padding-top: 0;
-     
+
     }
-    .self-company-float p{
+
+    .self-company-float p {
         padding-left: 0;
     }
-   
+
 }

@@ -15,7 +15,11 @@ html {
     padding-top: 8rem;
 }
 
-
+[id="stories"],
+[id="about-us"],
+[id="enterprise-recruitment"] {
+    scroll-margin-top:calc(8rem - 1px);
+}
 
 #menu-control {
     display: none;
