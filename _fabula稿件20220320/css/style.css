@@ -14,10 +14,12 @@
 html {
     padding-top: 8rem;
 }
-[id] {
-    scroll-margin-top: 8rem;
-}
 
+[id="stories"],
+[id="about-us"],
+[id="enterprise-recruitment"] {
+    scroll-margin-top:calc(8rem - 1px);
+}
 
 #menu-control {
     display: none;
@@ -59,7 +61,7 @@ html {
 .main-header h1 a.logo {
     display: block;
     width: 7rem;
-    margin-left: -0.1rem;
+    margin-left: -0.24rem;
 }
 
 
@@ -161,7 +163,7 @@ html {
 
 
 .main-footer .footer-logo {
-    margin-left:-.1rem;
+    margin-left: -0.24rem;
 
     width: 7rem;
 }
@@ -221,6 +223,7 @@ html {
 
 @media screen and (max-width:1200px) {
 
+
     .main-nav>ul,
     .main-nav>ul .dropdown .dropdown-menu,
     .main-nav>ul .dropdown .select,
@@ -234,6 +237,7 @@ html {
         padding-bottom: 5px;
     }
 }
+
 
 
 @media screen and (min-width:768px) and (max-width:992px) {

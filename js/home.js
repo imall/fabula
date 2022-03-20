@@ -1,8 +1,26 @@
 ; (function () {
+ 
     let more_story = document.querySelector(".more-story")
     let more_story_button = document.querySelector(".more-story-button")
     let aList = document.querySelectorAll(".main-nav>ul li a")
     let menuControl = document.querySelector("#menu-control")
+
+    window.addEventListener("load", function () {
+        if(window.location.href.includes("#")){
+            let movetoSectionNode = document.querySelector("#" + window.location.href.split("#")[1])
+            menuControl.checked = false;
+            if(movetoSectionNode!=null){
+                ST(movetoSectionNode, 1);
+                setTimeout(() => {
+                    movetoSectionNode.classList.add('animate__animated', 'animate__headShake');
+                }, 800);
+                setTimeout(() => {
+                    movetoSectionNode.classList.remove('animate__animated', 'animate__headShake');
+                }, 1200);
+            }
+        }
+   
+    });
     more_story_button.addEventListener("click", () => {
         more_story.classList.add("click")
     })
