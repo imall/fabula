@@ -33,20 +33,8 @@
         scrollToC(e, e.scrollTop + document.querySelector(".container-fluid.header").clientHeight, element, duration);
     }
 
-    function Slinear(element, duration) {
-        var e = document.documentElement;
-        if (window.scrollY == 0) {
-            window.scrollTo({ top: 1 })
-        }
-        scrollToB(e, e.scrollTop + document.querySelector(".container-fluid.header").clientHeight, element, duration);
-    }
 
-    function scrollToB(element, from, to, duration) {
-        if (duration <= 0) return;
-        if (typeof from === "object") from = from.offsetTop;
-        if (typeof to === "object") to = to.offsetTop;
-        scrollToX(element, from, to, 0, 1 / duration, 20, linearTween);
-    }
+
 
     function scrollToC(element, from, to, duration) {
         if (duration <= 0) return;
@@ -75,7 +63,5 @@
         return (t * t * t * t * t + 2) / 2;
     }
 
-    function linearTween(t) {
-        return t;
-    }
+  
 })()
