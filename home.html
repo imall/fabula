@@ -17,16 +17,26 @@
     <meta property="og:site_name" content="site_name" />
 
 
+    <!-- 瀏覽器頁籤logo -->
+    <link rel="short icon" sizes="16x16 32x32 48x48 64x64"
+        href="https://storage.googleapis.com/fabula/Globals/Icon/%E4%B8%BB%E7%B7%A8%E5%9C%9616.jpeg" />
 
-    <link rel="short icon" sizes="16x16 32x32 48x48 64x64" href="https://storage.googleapis.com/fabula/Globals/Icon/%E4%B8%BB%E7%B7%A8%E5%9C%9616.jpeg" />
+    <!-- animate CSS -->
     <link rel="stylesheet" href="./css/animate.min.css">
-    <link href="./css/bootstrap.min.css" rel="stylesheet" >
-    <script src="./js/bootstrap.bundle.min.js" defer ></script>
+
+    <!-- bootstrap 5 原始碼 -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- 共用js 與CSS -->
     <script src="./js/index.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="stylesheet" href="./css/home.css">
+    <!-- 此頁專用js 與 CSS -->
     <script src="./js/home.js" defer></script>
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- 瀏覽器頁籤標題 -->
     <title>Fabula</title>
 
 </head>
@@ -40,7 +50,7 @@
                 <div class="main-header">
                     <h1>
                         <span>Fabula</span>
-                        <a href="#" class="logo">
+                        <a href="/home.html" class="logo">
                             <img src="./img/Logo-g.png" alt="Fabula" class="w-100">
                         </a>
                     </h1>
@@ -78,7 +88,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <form action="https://google.com.tw" class="header-search">
+                                <!-- 搜尋框，要更改搜尋連結 -->
+                                <form action="/" class="header-search">
                                     <input type="search" name="keyword" placeholder="搜尋">
                                     <button><i class="fas fa-search"></i></button>
                                 </form>
@@ -90,16 +101,16 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid banner">
         <div class="row">
-            <div class="col-12 banner">
+            <div class="col-12">
                 <div id="carousel-slider" class="carousel slide" data-bs-ride="carousel">
                     <!-- 點點的位置   data-bs-target=都寫#carousel-slider-->
                     <div class="carousel-indicators">
                         <!-- 第一個點點 class + active， data-bs-slide-to=0-->
                         <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0"
                             class="rounded-circle active" aria-current="true"></button>
-                        <!-- 第二個點點 class 預設有一個 rounded-circle"， data-bs-slide-to=1-->
+                        <!-- 第二個點點 class 預設有一個 rounded-circle"， data-bs-slide-to=1  ，如果增加點點，就增加數字-->
                         <button type="button" class="rounded-circle" data-bs-target="#carousel-slider"
                             data-bs-slide-to="1"></button>
 
@@ -158,7 +169,7 @@
 
                 <!-- 這是一個完整故事區塊 -->
                 <div class="col-12 col-md-4 mb-4">
-                    <!-- 小裝置也要滿版的話，用full-story -->
+                    <!-- 小裝置也要滿版的話，class用full-story -->
                     <a href="#" class="full-story">
                         <div class="story-pic">
                             <img src="https://picsum.photos/300/200/?random=0" class="w-100">
@@ -335,7 +346,8 @@
                         <p>Fabula 發佈啦
                             “在溫飽、庇護與陪伴之後，故事是我們這世上最需要的東西。”—菲利普．普爾曼
                             令人遺憾的是，我們在購物時只看的到商品表象。「發佈啦」希望不只給您一個不同於義賣和「快時尚」的概念，而是這些非營利組織的人生哲學。
-                            「發佈啦」是一個會秉持「責任行銷」的平台、社會企業。</p>
+                            「發佈啦」是一個會秉持「責任行銷」的平台、社會企業。
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -351,7 +363,8 @@
 
     <div class="container-fluid enterprise-recruitment">
         <div class="container">
-            <form class="row pt-5 pb-5" id="enterprise-recruitment" method="post" action="#">
+            <!-- 商家招募的表單 -->
+            <form id="enterprise-recruitment" class="row pt-5 pb-5" method="post" action="/">
                 <div class="col-12">
                     <h2 class="text-center pb-3">商家企業招募</h2>
                 </div>
@@ -395,14 +408,18 @@
                     <h3>Contact</h3>
                     <p>
                         <span>首信整合有限公司</span>
+                        <!-- 連絡電話 -->
                         <span><a href="tel:0928286319">0928-286319</a></span>
+                        <!-- 聯絡信箱 -->
                         <span><a href="mailto:service@company.com">service@company.com</a></span>
                     </p>
                 </div>
                 <div class="col-6 col-md-3 mb-3">
                     <h3>Terms</h3>
                     <p>
+                        <!-- 隱私權政策連結 -->
                         <span><a href="#">隱私權政策</a></span>
+                        <!-- 注意事項連結 -->
                         <span><a href="#">注意事項</a></span>
                     </p>
                 </div>
@@ -410,12 +427,15 @@
                     <h3>Media</h3>
                     <ul>
                         <li>
+                            <!-- FB連結 -->
                             <span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></span>
                         </li>
                         <li>
+                            <!-- IG連結 -->
                             <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
                         </li>
                         <li>
+                            <!-- YT連結 -->
                             <span><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></span>
                         </li>
                     </ul>
@@ -423,14 +443,10 @@
             </div>
         </div>
         <div class="copyright">
-            Copyright &copy; 2022 Fabula.
-            All rights reserved.
+            Copyright &copy; 2022 Fabula. All rights reserved.
         </div>
     </div>
     <span class="go-top fade-out "><i class="fas fa-angle-up"></i></span>
-
-
-
 </body>
 
 </html>
