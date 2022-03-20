@@ -211,6 +211,15 @@
     font-size: 1rem;
 }
 
+.company .tags ul li:hover{
+    background-color: #6CA27F;
+    color: #fff;
+}
+
+.company .tags ul li:hover a{
+    color: #fff;
+}
+
 .company .tags ul li a {
     color: #4d4d4d;
     text-decoration: none;

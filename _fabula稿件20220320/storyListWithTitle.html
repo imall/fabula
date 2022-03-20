@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+    <!-- description -->
+    <meta name="description" content="地方創生,世界故事,地方,創生,世界,故事,創造,創新,跨境,店商,合作,網路,SEO,廣告,智慧控制導入,物聯網,整合,客製戰情,ERP,專案,創生" />
+
+    <!--meta: og 請參考下方連結 
+        https://developers.facebook.com/docs/sharing/webmasters?locale=zh_TW -->
+    <meta property="og:type" content="type" />
+    <meta property="og:title" content="site_title" />
+    <meta property="og:description" content="site_description" />
+    <meta property="og:image" content="site_image" />
+    <meta property="og:url" content="site_url" />
+    <meta property="og:site_name" content="site_name" />
+
+    <!-- 瀏覽器頁籤logo -->
+    <link rel="short icon" sizes="16x16 32x32 48x48 64x64"
+        href="https://storage.googleapis.com/fabula/Globals/Icon/%E4%B8%BB%E7%B7%A8%E5%9C%9616.jpeg" />
+
+    <!-- bootstrap 5 原始碼 -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- 共用js 與CSS -->
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 此頁專用js 與 CSS -->
+    <script src="./js/storyListWithTitle.js" defer></script>
+    <link rel="stylesheet" href="./css/storyListWithTitle.css">
+
+    <!-- 瀏覽器頁籤標題 -->
+    <title>Fabula</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row">
+                <input type="checkbox" id="menu-control">
+                <label class="bg" for="menu-control"></label>
+                <div class="main-header">
+                    <h1>
+                        <span>Fabula</span>
+                        <a href="/home.html" class="logo">
+                            <img src="./img/Logo-g.png" alt="Fabula" class="w-100">
+                        </a>
+                    </h1>
+                    <label class="hb" for="menu-control">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="main-nav">
+                        <ul>
+                            <!-- 頁首清單資料 -->
+                            <li>
+                                <a href="#stories">精選故事</a>
+                            </li>
+                            <li>
+                                <a href="#about-us">關於我們</a>
+                            </li>
+                            <li>
+                                <a href="#enterprise-recruitment">商家招募</a>
+                            </li>
+                            <li>
+                                <a href="/storyList.html">所有故事</a>
+                            </li>
+                            <li class="dropdown">
+                                <!-- 按鈕動態更改語言 -->
+                                <button class="btn dropdown-toggle select" type="button" id="language"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    語系
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="language">
+                                    <!-- href塞連結 -->
+                                    <li><a class="dropdown-item" href="javascript:;">繁體中文</a></li>
+                                    <li><a class="dropdown-item" href="javascript:;">English</a></li>
+                                    <li><a class="dropdown-item" href="javascript:;">Việt Ngữ</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- 搜尋框，要更改搜尋連結 -->
+                                <form action="/" class="header-search">
+                                    <input type="search" name="keyword" placeholder="搜尋">
+                                    <button><i class="fas fa-search"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 main-articles">
+                <div class="article">
+                    <div class="row main-title">
+                        <h2><i class="fas fa-tag"></i>(搜尋內容)</h2>
+                    </div>
+                    <!-- 一組故事清單 -->
+                    <a href="#" class="row main-txt">
+                        <div class="col-8 col-md-6 d-flex flex-column">
+                            <h2>標題</h2>
+                            <p class="flex-grow-1">
+                                站在流行教程，既然你在順利防治既然你在順利防治
+                            </p>
+                            <div class="f-button d-flex justify-content-between ">
+                                <div class="date">2022/02/02</div>
+                                <div class="autor mx-4">作者</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-6 align-self-center">
+                            <div class="pic">
+                                <img src="https://picsum.photos/1024/768/?random=2" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 一組故事清單 -->
+                    <a href="#" class="row main-txt">
+                        <div class="col-8 col-md-6 d-flex flex-column ">
+                            <h2>標題</h2>
+                            <p class="flex-grow-1">
+                                站在流行教程，既然你在順利防治既然你在順利防治
+                            </p>
+                            <div class="f-button d-flex justify-content-between ">
+                                <div class="date">2022/02/02</div>
+                                <div class="autor mx-4">作者</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-6 align-self-center">
+                            <div class="pic">
+                                <img src="https://picsum.photos/1024/768/?random=50" alt="">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row main-txt">
+                        <div class="col-8 col-md-6 d-flex flex-column ">
+                            <h2>標題</h2>
+                            <p class="flex-grow-1">
+                                站在流行教程，既然你在順利防治既然你在順利防治
+                            </p>
+                            <div class="f-button d-flex justify-content-between ">
+                                <div class="date">2022/02/02</div>
+                                <div class="autor mx-4">作者</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-6 align-self-center">
+                            <div class="pic">
+                                <img src="https://picsum.photos/1024/768/?random=55" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 手機板的標籤資料們，看要出現在幾個資料之後，將結構show出即可 -->
+                    <div class="row middle-classes">
+                        <div class="col-12">
+                            <h2>Classes</h2>
+                            <ul>
+                                <li><a href="#">創新<span>1</span></a></li>
+                                <li><a href="#">創新<span>2</span></a></li>
+                                <li><a href="#">創新<span>3</span></a></li>
+                                <li><a href="#">創新<span>4</span></a></li>
+                                <li><a href="#">創新<span>5</span></a></li>
+                                <li><a href="#">創新<span>6</span></a></li>
+                                <li><a href="#">創新<span>7</span></a></li>
+                                <li><a href="#">創新<span>8</span></a></li>
+                                <li><a href="#">創新<span>9</span></a></li>
+                                <li><a href="#">創新<span>10</span></a></li>
+                                <!-- 手機版面算到要隱藏的資料後，li 的Class + mobile-more -->
+                                <li class="mobile-more">more</li>
+                                <li><a href="#">創新<span>11</span></a></li>
+                                <li><a href="#">創新<span>12</span></a></li>
+                                <li><a href="#">創新<span>13</span></a></li>
+                                <li><a href="#">創新<span>14</span></a></li>
+                                <li><a href="#">創新<span>15</span></a></li>
+                                <li><a href="#">創新<span>16</span></a></li>
+                                <li><a href="#">創新<span>17</span></a></li>
+                                <li><a href="#">創新<span>18</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="#" class="row main-txt">
+                        <div class="col-8 col-md-6 d-flex flex-column ">
+                            <h2>標題</h2>
+                            <p class="flex-grow-1">
+                                站在流行教程，既然你在順利防治既然你在順利防治
+                            </p>
+                            <div class="f-button d-flex justify-content-between ">
+                                <div class="date">2022/02/02</div>
+                                <div class="autor mx-4">作者</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-6 align-self-center">
+
+                            <div class="pic">
+                                <img src="https://picsum.photos/1024/768/?random=74" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="row main-txt">
+                        <div class="col-8 col-md-6 d-flex flex-column ">
+                            <h2>標題</h2>
+                            <p class="flex-grow-1">
+                                站在流行教程，既然你在順利防治既然你在順利防治
+                            </p>
+                            <div class="f-button d-flex justify-content-between ">
+                                <div class="date">2022/02/02</div>
+                                <div class="autor mx-4">作者</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-6 align-self-center">
+
+                            <div class="pic">
+                                <img src="https://picsum.photos/1024/768/?random=37" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 side-nav">
+                <div class="side-nav-content">
+                    <div class="classes">
+                        <h2>Classes</h2>
+                        <ul>
+                            <li><a href="#">創新<span>1</span></a></li>
+                            <li><a href="#">創新<span>2</span></a></li>
+                            <li><a href="#">創新<span>3</span></a></li>
+                            <li><a href="#">創新<span>4</span></a></li>
+                            <li><a href="#">創新<span>5</span></a></li>
+                            <li><a href="#">創新<span>6</span></a></li>
+                            <li><a href="#">創新<span>7</span></a></li>
+                            <li><a href="#">創新<span>8</span></a></li>
+                            <li><a href="#">創新<span>9</span></a></li>
+                            <li><a href="#">創新<span>10</span></a></li>
+                            <!-- 桌機版面算道第50筆資料，li 的Class +more -->
+                            <li class="more">more</li>
+                            <li><a href="#">創新<span>11</span></a></li>
+                            <li><a href="#">創新<span>12</span></a></li>
+                            <li><a href="#">創新<span>13</span></a></li>
+                            <li><a href="#">創新<span>14</span></a></li>
+                            <li><a href="#">創新<span>15</span></a></li>
+                            <li><a href="#">創新<span>16</span></a></li>
+                            <li><a href="#">創新<span>17</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="stories">
+                        <h2>Latest Post</h2>
+                        <ul>
+                            <li><a href="#">跟著赤腳精靈來用餐</a></li>
+                            <li><a href="#">蒔嚐，會是你生活的日常</a></li>
+                            <li><a href="#">人工智慧產業發展協會</a></li>
+                            <li><a href="#">純粹天然的頂級燕窩</a></li>
+                            <li><a href="#">海口腔 一口烏魚子</a></li>
+                            <li><a href="#">在地小農自產自銷冬菇</a></li>
+                            <li><a href="#">從善汝鎏的忠義社區</a></li>
+                            <li><a href="#">在地國際化的八堡文化</a></li>
+                            <li><a href="#">聖樺資訊有限公司</a></li>
+                            <li><a href="#">左岸巴黎香草 人文咖啡館</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid main-footer ">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-12 col-md-3 mb-3 align-self-center">
+                    <h3 class="footer-logo">
+                        <img src="./img/Logo-w.png" alt="">
+                    </h3>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h3>Contact</h3>
+                    <p>
+                        <span>首信整合有限公司</span>
+                        <span><a href="tel:0928286319">0928-286319</a></span>
+                        <span><a href="mailto:service@company.com">service@company.com</a></span>
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h3>Terms</h3>
+                    <p>
+                        <span><a href="#">隱私權政策</a></span>
+                        <span><a href="#">注意事項</a></span>
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <h3>Media</h3>
+                    <ul>
+                        <li>
+                            <span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></span>
+                        </li>
+                        <li>
+                            <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
+                        </li>
+                        <li>
+                            <span><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2022 Fabula.
+            All rights reserved.
+        </div>
+    </div>
+
+    <span class="go-top fade-out "><i class="fas fa-angle-up"></i></span>
+
+
+</body>
+
+</html>
