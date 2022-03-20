@@ -1,0 +1,25 @@
+@import url(./storyList.css);
+
+.main-title {
+   padding-bottom: 25px;
+}
+
+.main-title h2 {
+    vertical-align: middle;
+    color: #4d4d4d;
+    font-size: 1.5rem;
+}
+
+.main-title i {
+    font-size: 1rem;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
+}
+@media screen and (max-width:576px) {
+    .main-title {
+       padding-left: 10px;
+       padding-right: 10px;
+     }
+}
