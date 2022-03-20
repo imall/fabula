@@ -5,6 +5,7 @@
     let menuControl = document.querySelector("#menu-control")
     let headerHeight =document.querySelector(".container-fluid.header").clientHeight
 
+
     window.addEventListener("scroll", () => {
         if (window.scrollY == 0) {
             home.classList.add("fade-out")
