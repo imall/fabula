@@ -11,7 +11,7 @@
         }
     })
     window.onresize = reportWindowSize;
-    window.addEventListener("load", function () {
+    window.addEventListener("DOMContentLoaded", function () {
         reportWindowSize()
     });
 

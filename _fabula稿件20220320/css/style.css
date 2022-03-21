@@ -9,6 +9,7 @@
 * {
     list-style: none;
     font-family: "Noto Sans TC", sans-serif;
+   
 }
 
 html {
@@ -99,7 +100,7 @@ html {
 
 .main-header .header-search {
     display: flex;
-    font-size: 18px;
+    font-size: 1rem;
 
 }
 

@@ -12,7 +12,13 @@
 }
 
 html {
+    height: 100%;
     padding-top: 8rem;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 [id="stories"],
@@ -148,12 +154,14 @@ html {
 .fade-out {
     bottom: -100px;
     opacity: 0;
+
 }
 
 
 .main-footer {
     background-color: #4D4D4D;
     color: #fff;
+ 
 }
 
 .main-footer .footer-content {

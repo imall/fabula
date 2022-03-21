@@ -1,8 +1,17 @@
 ; (function () {
+
     let more_story = document.querySelector(".more-story")
     let more_story_button = document.querySelector(".more-story-button")
     let aList = document.querySelectorAll(".main-nav>ul li a")
     let menuControl = document.querySelector("#menu-control")
+
+    window.addEventListener("load", function () {
+        if (window.location.href.includes("#")) {
+            let movetoSectionNode = document.querySelector("#" + window.location.href.split("#")[1])
+            console.log(movetoSectionNode)
+            moveto(movetoSectionNode)
+        }
+    });
     more_story_button.addEventListener("click", () => {
         more_story.classList.add("click")
     })
@@ -10,19 +19,20 @@
         element.addEventListener("click", () => {
             let movetoSectionNode = document.querySelector("#" + element.href.split("#")[1])
             menuControl.checked = false;
-            if(movetoSectionNode!=null){
-                ST(movetoSectionNode, 1);
-                setTimeout(() => {
-                    movetoSectionNode.classList.add('animate__animated', 'animate__headShake');
-                }, 800);
-                setTimeout(() => {
-                    movetoSectionNode.classList.remove('animate__animated', 'animate__headShake');
-                }, 1200);
-            }
-    
+            moveto(movetoSectionNode)
         })
-
     });
+    function moveto(element) {
+        if (element != null) {
+            ST(element, 1);
+            setTimeout(() => {
+                element.classList.add('animate__animated', 'animate__headShake');
+            }, 800);
+            setTimeout(() => {
+                element.classList.remove('animate__animated', 'animate__headShake');
+            }, 1200);
+        }
+    }
 
 
     function ST(element, duration) {
@@ -32,9 +42,6 @@
         }
         scrollToC(e, e.scrollTop + document.querySelector(".container-fluid.header").clientHeight, element, duration);
     }
-
-
-
 
     function scrollToC(element, from, to, duration) {
         if (duration <= 0) return;
@@ -63,5 +70,4 @@
         return (t * t * t * t * t + 2) / 2;
     }
 
-  
 })()

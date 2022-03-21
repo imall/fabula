@@ -1,24 +1,9 @@
-
-
-.oops{
+.oops {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    flex-grow: 1;    
     font-size: 50px;
-    color:  #6ca27f;
-}
-
-
-.main-footer{
-    position: fixed;
-    bottom: 0;
-}
-
-@media screen and (max-width:767px) {
-    .oops{
-        height: 30vh;
-    }
- 
+    color: #6ca27f;
 }
