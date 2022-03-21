@@ -1,0 +1,526 @@
+[id="company-des"],
+[id="fundation-info"], 
+[id="map-section"],
+[id="tags"] {
+    scroll-margin-top: calc(9rem);
+}
+
+.banner {
+    width: 100%;
+    padding: 0 0 45%;
+    height: 0;
+    position: relative;
+}
+
+.banner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .txt {
+    position: absolute;
+    width: 41.666667%;
+    padding: 2.75rem 2.5rem;
+    right: 0;
+    bottom: 100px;
+    background-color: #0006;
+}
+
+.banner .txt span {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.article article {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #6B7280;
+}
+
+.article article h2 {
+    font-weight: bold;
+    color: #245133;
+    font-size: 1.5rem;
+}
+
+.article article h2 span {
+    display: block;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.article article #storyContent img {
+    width: 100%;
+}
+
+.article article #storyContent h1,
+.article article #storyContent h2,
+.article article #storyContent h3,
+.article article #storyContent h4,
+.article article #storyContent h5,
+.article article #storyContent h6 {
+    font-size: inherit;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.article article>div {
+    display: block;
+    color: #4d4d4d;
+    margin: 30px 0 0;
+}
+
+
+
+.article article>div a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
+.company {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6B7280;
+}
+
+
+.company .company-title {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.company .company-logo {
+    width: 10rem;
+}
+
+.company .company-logo img {
+    width: 100%;
+}
+
+.company .company-title .company-info {
+    width: 80%;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company .company-title .company-info h3 {
+    color: #245133;
+    font-weight: bold;
+
+    padding-left: 1rem;
+}
+
+.company .company-title .company-info ul {
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.company .company-title .company-info ul li {
+    box-sizing: border-box;
+    padding: 0 1rem;
+
+}
+
+.company .company-title .company-info ul li a {
+    display: block;
+    color: #4d4d4d;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.company .company-title .company-info ul li.link-active {
+    border-bottom: 5px solid #6CA27F;
+}
+
+
+
+.company .company-des,
+.company .fundation-info,
+.company .tags,
+.company .map-section {
+    margin-bottom: 50px;
+}
+
+.company .company-des h3,
+.company .fundation-info h3,
+.company .tags h3,
+.company .map-section h3 {
+    margin-bottom: 30px;
+    padding-left: .5em;
+    border-left: 4px solid #ccc;
+}
+
+.company .company-des p {
+    color: #4d4d4d;
+}
+
+
+
+.company .fundation-info .information .info {
+    display: flex;
+    color: #4d4d4d;
+    gap: 1.25rem;
+    margin-bottom: 1em;
+}
+
+.company .fundation-info .information .info .info-title {
+    width: 4rem;
+    flex-shrink: 0;
+
+}
+
+.company .fundation-info .information .info .info-content {
+    color: #999;
+}
+
+.company .fundation-info .information .info .info-content a {
+
+    text-decoration: none;
+}
+
+.company .fundation-info .information .info .info-content a:not(:first-of-type) {
+    margin-left: 1em;
+}
+
+.company .tags ul {
+    font-size: 0;
+    padding: 0;
+}
+
+.company .tags ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.company .tags ul li:hover {
+    background-color: #6CA27F;
+    color: #fff;
+}
+
+.company .tags ul li:hover a {
+    color: #fff;
+}
+
+.company .tags ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.company .map-section .map {
+    width: 100%;
+    padding-bottom: 75%;
+    height: 0;
+    position: relative;
+}
+
+.company .map-section .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.self-company-float {
+    padding-bottom: 20px;
+}
+
+.self-company-float h4 span {
+    display: block;
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.self-company-float p {
+    width: 87%;
+    float: right;
+    padding-top: 10px;
+    color: #4d4d4d;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.self-company-float h4 {
+    font-size: 1.125rem;
+    width: 87%;
+    float: right;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: "custom-sans-serif", Noto Sans TC !important;
+}
+
+.self-company-float .self-logo {
+    width: 13%;
+    float: left;
+    margin: auto;
+}
+
+.self-company-float .self-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.side-nav-content {
+    background-color: rgb(249, 250, 251);
+    color: #4d4d4d;
+    padding: 50px 15px;
+    height: 100%;
+}
+
+.side-nav .side-nav-content .classes {
+    padding-bottom: 50px;
+}
+
+.side-nav .side-nav-content .stories h2,
+.side-nav .side-nav-content .classes h2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.side-nav .side-nav-content .classes ul,
+.side-nav .side-nav-content .stories ul {
+    padding: 0;
+    font-size: 0;
+}
+
+.side-nav .side-nav-content .classes ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.middle-classes .mobile-more~li,
+.side-nav .side-nav-content .classes .more~li {
+    display: none;
+}
+
+.mobile-more, .more {
+    cursor: pointer;
+
+}
+
+.side-nav .side-nav-content .stories ul li a,
+.side-nav .side-nav-content .classes ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.side-nav .side-nav-content .stories ul li a:hover {
+    color: #6CA27F;
+}
+
+.side-nav .side-nav-content .stories ul li {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1440px) {
+    .self-company-float p {
+        width: 87%;
+    }
+
+    .self-company-float h4 {
+        width: 87%;
+    }
+
+    .self-company-float .self-logo {
+        width: 13%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .self-company-float p {
+        width: 80%;
+    }
+
+    .self-company-float h4 {
+        width: 80%;
+    }
+
+    .self-company-float .self-logo {
+        width: 20%;
+
+    }
+
+    .company .company-title .company-info h3 {
+        padding-left: 0;
+    }
+
+    .company .company-title .company-info ul {
+        justify-content: space-between;
+    }
+
+    .company .company-title .company-info ul li {
+        padding: 0 .4rem;
+    }
+
+    .company .company-title .company-info ul li a {
+
+        font-size: .7rem;
+
+    }
+
+}
+
+
+@media screen and (max-width:992px) {
+
+
+    .company .company-title .company-info ul li {
+        padding: 0 .4rem;
+    }
+
+    .company .company-title .company-info ul li a {
+
+        padding-bottom: 0.3rem;
+    }
+
+    .self-company-float h4 {
+        padding-top: 0;
+    }
+
+
+}
+
+@media screen and (max-width:767.98px) {
+    .banner {
+        padding: 0 0 80%;
+    }
+
+    .banner .txt {
+
+        width: 80vw;
+        padding: 30px;
+        bottom: 50px;
+    }
+
+    .banner .txt {
+        position: absolute;
+        width: 20rem;
+        padding: 1.75rem 2.5rem;
+    }
+
+
+    .banner .txt span {
+        font-size: 25px;
+    }
+
+    .company .company-logo {
+        width: 7rem;
+    }
+
+    .company .company-title {
+        position: relative;
+        margin-bottom: 120px;
+
+    }
+
+    .company .company-title .company-info ul {
+        width: 100%;
+        padding: 30px 0;
+        justify-content: space-between;
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+    }
+
+    .company .company-title .company-info ul li {
+        padding: 0 0.5rem;
+    }
+
+    .side-nav {
+        background-color: rgb(249, 250, 251);
+    }
+
+    .self-company-float h4 {
+        padding-top: 0;
+    }
+
+    .self-company-float p {
+        width: 100%;
+        float: right;
+        padding-left: 0;
+    }
+
+    .side-nav-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .company .company-title .company-info ul li a {
+
+        font-size: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .side-nav-content,
+    .article {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .self-company-float .self-logo {
+        width: 5rem;
+    }
+
+    .self-company-float h4 {
+        width: 10rem;
+        float: left;
+        padding-top: 0;
+
+    }
+
+    .self-company-float p {
+        padding-left: 0;
+    }
+
+}

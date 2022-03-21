@@ -1,0 +1,237 @@
+
+.banner {
+    width: 100%;
+    padding: 0 0 45%;
+    position: relative;
+}
+.banner h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.banner #carousel-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.banner #carousel-slider .carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    box-sizing: border-box;
+}
+.banner #carousel-slider .carousel-indicators button.active{
+    background: #fff;
+}
+
+.carousel-inner .carousel-item img,
+.carousel-inner .carousel-item,
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item .carousel-caption  {
+    top: 0;
+    bottom: 0;
+}
+
+.carousel-inner [class^=carousel-control] {
+    z-index: 0;
+}
+
+
+.stories .main-title {
+    margin-bottom: 78px;
+}
+
+.enterprise-recruitment h2,
+.about-us .aobut-us-content h2,
+.stories .main-title h2 {
+    font-size: 1.875rem;
+    color: #245132;
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+.stories .main-title p {
+    color: #4d4d4d;
+    line-height: 1.5;
+    text-align: left
+}
+
+.stories a.mini-story,
+.stories a.full-story {
+    display: block;
+
+    text-decoration: none;
+
+
+}
+
+.stories a.mini-story:hover,
+.stories a.full-story:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.stories a.mini-story .story-pic,
+.stories a.full-story .story-pic {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%;
+    height: 0;
+}
+
+.stories a.mini-story .story-pic img,
+.stories a.full-story .story-pic img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.stories a.mini-story .story-des h3,
+.stories a.full-story .story-des h3 {
+    color: #245132;
+    font-size: 1.5rem;
+   
+}
+
+.stories a.mini-story .story-des p,
+.stories a.full-story .story-des p {
+    color: #4d4d4d;
+}
+
+.stories a.mini-story .story-des span,
+.stories a.full-story .story-des span {
+    display: inline-block;
+    color: #999;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    align-items: flex-end;
+}
+
+.stories .more-story .more-story-button {
+    background-color: #6CA27F;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 0;
+    font-size: 1.5rem;
+
+}
+
+.stories .more-story.click {
+    display: none;
+}
+
+.stories .more-story.click~[class^="col"] {
+    display: block;
+}
+
+.stories .more-story~[class^="col"] {
+    display: none;
+}
+
+
+.fixed-banner {
+    width: 100%;
+    height: 16rem;
+    background: url(../img/商家招募.jpeg) fixed center / cover;
+}
+
+.about-us {
+    background-color: #F9F9F9;
+}
+
+
+
+.about-us .aobut-us-content p {
+    color: #4d4d4d;
+}
+
+.about-us .aobut-us-pic {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    position: relative;
+}
+
+.about-us .aobut-us-pic img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.enterprise-recruitment .form-control {
+    background-color: #F2F2F2;
+    border-radius: 0%;
+    border: none;
+    font-weight: 400;
+}
+
+.enterprise-recruitment .form-control:focus {
+    box-shadow: 0 0 4px 0 #d2d2d2;
+}
+
+
+
+.enterprise-recruitment textarea {
+    resize: none;
+}
+
+.enterprise-recruitment .send {
+    border-radius: 0;
+
+    background-color: #245132;
+    padding: 10px 35px;
+}
+
+@media screen and (max-width:767.98px) {
+  
+    .banner {
+        padding: 0 0 75%;
+    }
+
+    .banner h2 {
+        font-size: 1.875rem;
+    }
+
+    
+
+    .stories a.mini-story {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .stories a.mini-story .story-pic {
+
+        width: 30%;
+        padding-bottom: 22.5%;
+    }
+
+    .stories a.mini-story .story-des {
+        width: 70%;
+    }
+    .stories a.mini-story .story-des p {
+        margin-bottom: 0;
+    }
+
+    .stories a.mini-story .story-des span {
+        display: none;
+    }
+
+    .stories .more-story .more-story-button{
+        font-size: 1rem;
+    }
+
+    .fixed-banner {
+        height: 12rem;
+    }
+
+}
