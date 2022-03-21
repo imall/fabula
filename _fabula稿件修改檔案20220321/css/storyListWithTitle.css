@@ -1,24 +1,26 @@
 .f-button {
     margin-top: auto;
 }
+
 .main-title {
     padding-bottom: 25px;
- }
- 
- .main-title h2 {
-     vertical-align: middle;
-     color: #4d4d4d;
-     font-size: 1.5rem;
-     margin-bottom: 0;
- }
- 
- .main-title i {
-     font-size: 1rem;
-     vertical-align: middle;
-     margin-right: 10px;
-     position: relative;
-     bottom: 2px;
- }
+}
+
+.main-title h2 {
+    vertical-align: middle;
+    color: #4d4d4d;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.main-title i {
+    font-size: 1rem;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
+}
+
 .main-txt {
     color: #4d4d4d;
     text-decoration: none;
@@ -120,15 +122,17 @@
     text-decoration: none;
     font-size: 1rem;
 }
-.side-nav .side-nav-content .classes ul li:hover{
-    background-color:#6CA27F;
-    color: #fff;
-} 
-.side-nav .side-nav-content .classes ul li:hover a{
+
+.side-nav .side-nav-content .classes ul li:hover {
+    background-color: #6CA27F;
     color: #fff;
 }
 
-.side-nav .side-nav-content .stories ul li a:hover{
+.side-nav .side-nav-content .classes ul li:hover a {
+    color: #fff;
+}
+
+.side-nav .side-nav-content .stories ul li a:hover {
     color: #6CA27F;
 }
 
@@ -171,8 +175,9 @@
         margin-bottom: 10px;
         margin-right: 8px;
     }
-    .middle-classes ul li:hover{
-        background-color:   #6CA27F;
+
+    .middle-classes ul li:hover {
+        background-color: #6CA27F;
         color: #fff;
     }
 
@@ -182,7 +187,7 @@
         font-size: 1rem;
     }
 
-    .middle-classes ul li:hover a{
+    .middle-classes ul li:hover a {
         color: #fff;
     }
 
@@ -197,25 +202,26 @@
 @media screen and (max-width:576px) {
     .main-title {
 
-        padding: 10px  calc(var(--bs-gutter-x) * .5);
-     
-     }
+        padding: 10px calc(var(--bs-gutter-x) * .5);
+
+    }
+
     .side-nav-content,
     .main-txt,
-    .middle-classes{
+    .middle-classes {
         padding-left: calc(var(--bs-gutter-x) * .5);
         padding-right: calc(var(--bs-gutter-x) * .5);
     }
 
     .side-nav-content,
-.article {
-    padding-top: calc(var(--bs-gutter-x) * .5);
-    padding-bottom: calc(var(--bs-gutter-x) * .5);
-}
+    .article {
+        padding-top: calc(var(--bs-gutter-x) * .5);
+        padding-bottom: calc(var(--bs-gutter-x) * .5);
+    }
 
-.side-nav {
-    background-color: rgb(249, 250, 251);
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-}
+    .side-nav {
+        background-color: rgb(249, 250, 251);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
 }
