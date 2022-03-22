@@ -1,9 +1,0 @@
-.oops {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;    
-    font-size: 50px;
-    color: #6ca27f;
-}
